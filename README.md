@@ -76,29 +76,7 @@ Finally, go to the Services project of you solution and go to the Nuget Manager.
 $ Install nuget Selise.Ecap.Framework
 ```
 
-To update TensorFlow to the latest version, add `--upgrade` flag to the above
-commands.
-
-*Nightly binaries are available for testing using the
-[tf-nightly](https://pypi.python.org/pypi/tf-nightly) and
-[tf-nightly-cpu](https://pypi.python.org/pypi/tf-nightly-cpu) packages on PyPi.*
-#### *Try your first TensorFlow program*
-
-```shell
-$ python
-```
-
-```python
->>> import tensorflow as tf
->>> tf.add(1, 2).numpy()
-3
->>> hello = tf.constant('Hello, TensorFlow!')
->>> hello.numpy()
-b'Hello, TensorFlow!'
-```
-
-For more examples, see the
-[TensorFlow tutorials](https://www.tensorflow.org/tutorials/).
+After installing the dependencies above go to the ```Usage``` section
 
 
 ## Usage
