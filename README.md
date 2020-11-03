@@ -111,18 +111,44 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
 
         private static IEnumerable<string> AddRequiredQueues(IAppSettings appSettings)
         {
-            return new[] { DmsServiceQueues.DmsQueueName };
+            return new[] { ... };
         }
 
         private static void AddApplicationServices(IServiceCollection serviceCollection, IAppSettings appSettings)
         {
-            serviceCollection.RegisterCollection(typeof(ICommandHandler<,>), new[] { typeof(CreateFolderCommandHandler).Assembly });
+            serviceCollection.RegisterCollection(typeof(ICommandHandler<,>), new[] { typeof(...).Assembly });
+        }
+```
 
-            serviceCollection.AddRowLevelSecurity();
+**Step 6**: Initialize the Background service in a similar fasion
 
-            serviceCollection.AddDmsCoreServices();
+```
+ public static async Task Main(string[] args)
+        {
+            var rabbitMqHostBuilderOptions = new RabbitMqHostBuilderOptions
+            {
+                UseFileLogging = true,
+                UseConsoleLogging = true,
+                CommandLineArguments = args,
+                AddApplicationServices = AddApplicationServices,
+                AddAmpqMessageConsumerOptions = (appSettings) =>
+                {
+                    var ampqMessageConsumerOptions = new AmpqMessageConsumerOptions();
 
-            serviceCollection.UseEcapMassTransitBusAsProducer(appSettings);
+                    ampqMessageConsumerOptions.ConsumerSubscriptions.ListenOn(..., 5);
+
+                    return ampqMessageConsumerOptions;
+                }
+            };
+
+            var hostBuilder = RabbitMqHostBuilder.BuildRabbitMqHost(rabbitMqHostBuilderOptions);
+
+            await hostBuilder.Build().RunAsync();
+        }
+
+        private static void AddApplicationServices(IServiceCollection serviceCollection, IAppSettings appSettings)
+        {
+            serviceCollection.RegisterCollection(typeof(ICommandHandler<,>), new[] { typeof(...).Assembly });
         }
 ```
 
