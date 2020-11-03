@@ -158,12 +158,9 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
         }
 ```
 
-### note: CommonJS usage
-In order to gain the TypeScript typings (for intellisense / autocomplete) while using CommonJS imports with `require()` use the following approach:
-
 ## Documentation 
 
-swagger documentation url
+``` Swagger Documentation ``` <a href="https://reactnative.dev/"> https://api-documentation.selise.biz/ </a>
 
 ## Changelog
 
