@@ -61,15 +61,69 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 Step 1: To install the first nuget go to the WebService project of you solution and go to the Nuget Manager. Install the following Nuget
 
 ```
-$ Install nuget **Selise.Ecap.WebApi.NetCore**
+$ Install nuget Selise.Ecap.WebApi.NetCore
 ```
 
-
-
-A smaller CPU-only package is also available:
+Step 2: The go to the Background service project of you solution and go to the Nuget Manager. Install the following Nuget
 
 ```
-$ pip install tensorflow-cpu
+$ Install nuget Selise.Ecap.Hosting
+```
+
+Step 3: Finally, go to the Services project of you solution and go to the Nuget Manager. Install the following Nuget
+
+```
+$ Install nuget Selise.Ecap.Framework
+```
+
+Step 4: Initialize your WebService project with boilerplace code inside the Main method of Program.cs
+
+```
+var ecapWebApiPipelineBuilderOptions = new EcapWebApiPipelineBuilderOptions
+            {
+                UseFileLogging = true,
+                UseConsoleLogging = true,
+                CommandLineArguments = args,
+                UseAuditLoggerMiddleware = true,
+                AddApplicationServices = AddApplicationServices,
+                UseJwtBearerAuthentication = true,
+                AddRequiredQueues = AddRequiredQueues,
+                AddRequiredExchanges = AddRequiredExchanges
+            };
+
+            ecapWebApiPipelineBuilderOptions.AddRoutes = (appSettings, routeBuilder) =>
+            {
+                routeBuilder.MapRoute("Default", $"{appSettings.ServiceName}" + "/{controller}/{action}/{id?}");
+            };
+
+            var webHostBuilder = EcapWebApiPipelineBuilder.BuildEcapWebApiPipeline(ecapWebApiPipelineBuilderOptions);
+
+            await webHostBuilder.Build().RunAsync();
+```
+
+Step 5: Add these methods inside the WebService Program.cs file
+
+```
+private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings)
+        {
+            return EventExchanges.GetExchangeNames();
+        }
+
+        private static IEnumerable<string> AddRequiredQueues(IAppSettings appSettings)
+        {
+            return new[] { DmsServiceQueues.DmsQueueName };
+        }
+
+        private static void AddApplicationServices(IServiceCollection serviceCollection, IAppSettings appSettings)
+        {
+            serviceCollection.RegisterCollection(typeof(ICommandHandler<,>), new[] { typeof(CreateFolderCommandHandler).Assembly });
+
+            serviceCollection.AddRowLevelSecurity();
+
+            serviceCollection.AddDmsCoreServices();
+
+            serviceCollection.UseEcapMassTransitBusAsProducer(appSettings);
+        }
 ```
 
 To update TensorFlow to the latest version, add `--upgrade` flag to the above
