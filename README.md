@@ -44,11 +44,11 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 [Selise.Ecap.RowLevelSecurity]: https://img.shields.io/badge/nuget-3.0.0.1-blue
 [Selise.Ecap.Bus.Esb]: https://img.shields.io/badge/nuget-3.0.0.1-blue
 
-[vue-router-status]: https://img.shields.io/badge/nuget-3.0.0.1-orange
-[vuex-status]: https://img.shields.io/npm/v/vuex.svg
-[vue-cli-status]: https://img.shields.io/npm/v/@vue/cli.svg
-[vue-loader-status]: https://img.shields.io/npm/v/vue-loader.svg
-[vue-server-renderer-status]: https://img.shields.io/npm/v/vue-server-renderer.svg
+[vue-router-status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[vuex-status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[vue-cli-status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[vue-loader-status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[vue-server-renderer-status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
 
 [vue-router-package]: https://npmjs.com/package/vue-router
 [vuex-package]: https://npmjs.com/package/vuex
