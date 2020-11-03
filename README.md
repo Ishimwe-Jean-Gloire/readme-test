@@ -170,6 +170,7 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
 
 - [Abul Kasim](https://twitter.com/vuejs)
 - [Ahsan Habib](https://medium.com/the-vue-point)
+- [Rezwan Rafiq](https://medium.com/the-vue-point)
 
 ## License
 
