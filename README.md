@@ -82,7 +82,7 @@ After installing the dependencies above go to the ```Usage``` section
 ## Usage
 
 
-**Step 1**: Initialize your WebService project with boilerplace code inside the Main method of Program.cs
+**Step 1**: Initialize your WebService project with boilerplate code inside the Main method of Program.cs
 
 ```
 var ecapWebApiPipelineBuilderOptions = new EcapWebApiPipelineBuilderOptions
