@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/facebook/react-native/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="React Native is released under the MIT license." />
+  <a href="https://github.com/ittahad/readme-test/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/Selise-Product-blue" alt="React Native is released under the MIT license." />
   </a>
   <a href="https://circleci.com/gh/facebook/react-native">
     <img src="https://circleci.com/gh/facebook/react-native.svg?style=shield" alt="Current CircleCI build status." />
