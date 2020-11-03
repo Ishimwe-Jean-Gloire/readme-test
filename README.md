@@ -177,4 +177,4 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
 
 [Secure Link Service Ltd](https://www.selise.ch)
 
-Copyright (c) 2012-present, Selise.
+Copyright (c) 2012-present, SELISE
