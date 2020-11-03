@@ -175,6 +175,6 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
 
 ## License
 
-[SELISE](https://www.selise.ch)
+[Secure Link Service Ltd](https://www.selise.ch)
 
-Copyright (c) 2012-present, Secure Link Service Ltd
+Copyright (c) 2012-present, Selise.
