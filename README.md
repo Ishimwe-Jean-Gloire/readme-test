@@ -11,16 +11,13 @@
 
 <p align="center">
   <a href="https://github.com/ittahad/readme-test/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/Selise-Product-blue" alt="React Native is released under the MIT license." />
+    <img src="https://img.shields.io/badge/license-SELISE-blue" alt="React Native is released under the MIT license." />
   </a>
   <a href="https://circleci.com/gh/facebook/react-native">
     <img src="https://img.shields.io/badge/azure-passing-brightgreen" alt="Current CircleCI build status." />
   </a>
   <a href="https://circleci.com/gh/facebook/react-native">
     <img src="https://img.shields.io/badge/aws-passing-brightgreen" alt="Current CircleCI build status." />
-  </a>
-  <a href="https://reactnative.dev/docs/contributing">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
 </p>
 
