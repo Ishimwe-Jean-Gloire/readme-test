@@ -27,19 +27,6 @@
   </a>
 </p>
 
-<h3 align="center">
-  <a href="https://reactnative.dev/docs/getting-started">Getting Started</a>
-  <span> · </span>
-  <a href="https://reactnative.dev/docs/tutorial">Learn the Basics</a>
-  <span> · </span>
-  <a href="https://reactnative.dev/showcase.html">Showcase</a>
-  <span> · </span>
-  <a href="https://reactnative.dev/docs/contributing">Contribute</a>
-  <span> · </span>
-  <a href="https://reactnative.dev/en/help">Community</a>
-  <span> · </span>
-  <a href="https://github.com/facebook/react-native/blob/master/.github/SUPPORT.md">Support</a>
-</h3>
 
 
 ## Introduction
