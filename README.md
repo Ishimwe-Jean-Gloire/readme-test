@@ -164,7 +164,7 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
 
 ## Changelog
 
-[Learn about the latest improvements]: https://www.google.com
+Click here to [Learn about the latest improvements](https://www.google.com)
 
 ## Authors
 
