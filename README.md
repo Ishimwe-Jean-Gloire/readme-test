@@ -32,11 +32,11 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 
 | Nuget | Status | Description |
 |---------|--------|-------------|
-| [Selise.Ecap.Framework]          | [![Selise.Ecap.Framework-Status]][vue-router-package] | Framework for CommandHandlers, EventHandlers, Repository etc |
-| [Selise.Ecap.WepApi.Netcore]                | [![Selise.Ecap.WepApi.Netcore-Status]][vuex-package] | WebApi project dependency |
-| [Selise.Ecap.Hosting]             | [![Selise.Ecap.Hosting-Status]][vue-cli-package] | Background service dependency |
-| [Selise.Ecap.RowLevelSecurity]          | [![Selise.Ecap.RowLevelSecurity-Status]][vue-loader-package] | Use to maintain RowLevelSecurity |
-| [Selise.Ecap.Bus.Esb] | [![Selise.Ecap.Bus.Esb-Status]][vue-server-renderer-package] | English framework support |
+| [Selise.Ecap.Framework]          | [![Selise.Ecap.Framework-Status]][Selise.Ecap.Framework-Package] | Framework for CommandHandlers, EventHandlers, Repository etc |
+| [Selise.Ecap.WepApi.Netcore]                | [![Selise.Ecap.WepApi.Netcore-Status]][Selise.Ecap.WepApi.Netcore-Package] | WebApi project dependency |
+| [Selise.Ecap.Hosting]             | [![Selise.Ecap.Hosting-Status]][Selise.Ecap.Hosting-Package] | Background service dependency |
+| [Selise.Ecap.RowLevelSecurity]          | [![Selise.Ecap.RowLevelSecurity-Status]][Selise.Ecap.RowLevelSecurity-Package] | Use to maintain RowLevelSecurity |
+| [Selise.Ecap.Bus.Esb] | [![Selise.Ecap.Bus.Esb-Status]][Selise.Ecap.Bus.Esb-Package] | English framework support |
 
 [Selise.Ecap.Framework]: https://img.shields.io/badge/nuget-3.0.0.1-blue
 [Selise.Ecap.WepApi.Netcore]: https://img.shields.io/badge/nuget-3.0.0.1-blue
