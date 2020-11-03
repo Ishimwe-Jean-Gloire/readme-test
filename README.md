@@ -61,7 +61,7 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 Step 1: To install the first nuget go to the WebService project of you solution and go to the Nuget Manager. Install the following Nuget
 
 ```
-$ Install nuget Selise.Ecap.WebApi.NetCore
+$ Install nuget **Selise.Ecap.WebApi.NetCore**
 ```
 
 
