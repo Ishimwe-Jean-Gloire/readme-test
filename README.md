@@ -166,12 +166,10 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
 
 [Learn about the latest improvements][changelog].
 
-## Keep In Touch
+## Authors
 
-- [AzureBoards](https://twitter.com/vuejs)
-- [Gmail](https://medium.com/the-vue-point)
-- [Hangouts](https://vuejobs.com/?ref=vuejs)
-- [Skype](https://vuejobs.com/?ref=vuejs)
+- [Abul Kasim](https://twitter.com/vuejs)
+- [Ahsan Habib](https://medium.com/the-vue-point)
 
 ## License
 
