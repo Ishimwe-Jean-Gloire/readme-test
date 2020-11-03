@@ -155,7 +155,7 @@ For more examples, see the
 ### note: CommonJS usage
 In order to gain the TypeScript typings (for intellisense / autocomplete) while using CommonJS imports with `require()` use the following approach:
 
-```js
-const axios = require('axios').default;
 
-// axios.<method> will now provide autocomplete and parameter typings
+## Changelog
+
+[Learn about the latest improvements][changelog].
