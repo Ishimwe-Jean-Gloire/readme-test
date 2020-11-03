@@ -27,49 +27,34 @@
 
 Some introduction of backend **ecap-server-core-backendframework-netcore** will be provided here.
 
-#### Browser Compatibility
-
-Vue.js supports all browsers that are [ES5-compliant](https://kangax.github.io/compat-table/es5/) (IE8 and below are not supported).
 
 ## Ecosystem
 
-| Project | Status | Description |
+| Nuget | Status | Description |
 |---------|--------|-------------|
-| [vue-router]          | [![vue-router-status]][vue-router-package] | Single-page application routing |
-| [vuex]                | [![vuex-status]][vuex-package] | Large-scale state management |
-| [vue-cli]             | [![vue-cli-status]][vue-cli-package] | Project scaffolding |
-| [vue-loader]          | [![vue-loader-status]][vue-loader-package] | Single File Component (`*.vue` file) loader for webpack |
-| [vue-server-renderer] | [![vue-server-renderer-status]][vue-server-renderer-package] | Server-side rendering support |
-| [vue-class-component] | [![vue-class-component-status]][vue-class-component-package] | TypeScript decorator for a class-based API |
-| [vue-rx]              | [![vue-rx-status]][vue-rx-package] | RxJS integration |
-| [vue-devtools]        | [![vue-devtools-status]][vue-devtools-package] | Browser DevTools extension |
+| [Selise.Ecap.Framework]          | [![vue-router-status]][vue-router-package] | Framework for CommandHandlers, EventHandlers, Repository etc |
+| [Selise.Ecap.WepApi.Netcore]                | [![vuex-status]][vuex-package] | WebApi project dependency |
+| [Selise.Ecap.Hosting]             | [![vue-cli-status]][vue-cli-package] | Background service dependency |
+| [Selise.Ecap.RowLevelSecurity]          | [![vue-loader-status]][vue-loader-package] | Use to maintain RowLevelSecurity |
+| [Selise.Ecap.Bus.Esb] | [![vue-server-renderer-status]][vue-server-renderer-package] | English framework support |
 
-[vue-router]: https://github.com/vuejs/vue-router
-[vuex]: https://github.com/vuejs/vuex
-[vue-cli]: https://github.com/vuejs/vue-cli
-[vue-loader]: https://github.com/vuejs/vue-loader
-[vue-server-renderer]: https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer
-[vue-class-component]: https://github.com/vuejs/vue-class-component
-[vue-rx]: https://github.com/vuejs/vue-rx
-[vue-devtools]:  https://github.com/vuejs/vue-devtools
+[Selise.Ecap.Framework]: https://github.com/vuejs/vue-router
+[Selise.Ecap.WepApi.Netcore]: https://github.com/vuejs/vuex
+[Selise.Ecap.Hosting]: https://github.com/vuejs/vue-cli
+[Selise.Ecap.RowLevelSecurity]: https://github.com/vuejs/vue-loader
+[Selise.Ecap.Bus.Esb]: https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer
 
 [vue-router-status]: https://img.shields.io/npm/v/vue-router.svg
 [vuex-status]: https://img.shields.io/npm/v/vuex.svg
 [vue-cli-status]: https://img.shields.io/npm/v/@vue/cli.svg
 [vue-loader-status]: https://img.shields.io/npm/v/vue-loader.svg
 [vue-server-renderer-status]: https://img.shields.io/npm/v/vue-server-renderer.svg
-[vue-class-component-status]: https://img.shields.io/npm/v/vue-class-component.svg
-[vue-rx-status]: https://img.shields.io/npm/v/vue-rx.svg
-[vue-devtools-status]: https://img.shields.io/chrome-web-store/v/nhdogjmejiglipccpnnnanhbledajbpd.svg
 
 [vue-router-package]: https://npmjs.com/package/vue-router
 [vuex-package]: https://npmjs.com/package/vuex
 [vue-cli-package]: https://npmjs.com/package/@vue/cli
 [vue-loader-package]: https://npmjs.com/package/vue-loader
 [vue-server-renderer-package]: https://npmjs.com/package/vue-server-renderer
-[vue-class-component-package]: https://npmjs.com/package/vue-class-component
-[vue-rx-package]: https://npmjs.com/package/vue-rx
-[vue-devtools-package]: https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 
 ## Install
 
