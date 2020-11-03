@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/azure-passing-brightgreen"/>
   </a>
   <a href="https://circleci.com/backend-framework">
-    <img src="https://img.shields.io/badge/aws-passing-brightgreen"/>
+    <img src="https://img.shields.io/badge/aws-5%20passed%2C%201%20failed-red"/>
   </a>
 </p>
 
