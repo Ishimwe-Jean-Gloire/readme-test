@@ -155,6 +155,9 @@ For more examples, see the
 ### note: CommonJS usage
 In order to gain the TypeScript typings (for intellisense / autocomplete) while using CommonJS imports with `require()` use the following approach:
 
+## Documentation 
+
+swagger documentation url
 
 ## Changelog
 
