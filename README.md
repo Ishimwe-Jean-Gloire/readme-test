@@ -44,7 +44,7 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 [Selise.Ecap.RowLevelSecurity]: https://github.com/vuejs/vue-loader
 [Selise.Ecap.Bus.Esb]: https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer
 
-[vue-router-status]: https://img.shields.io/npm/v/vue-router.svg
+[vue-router-status]: https://img.shields.io/badge/nuget-3.0.0.1-orange
 [vuex-status]: https://img.shields.io/npm/v/vuex.svg
 [vue-cli-status]: https://img.shields.io/npm/v/@vue/cli.svg
 [vue-loader-status]: https://img.shields.io/npm/v/vue-loader.svg
