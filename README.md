@@ -56,27 +56,55 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 [vue-loader-package]: https://npmjs.com/package/vue-loader
 [vue-server-renderer-package]: https://npmjs.com/package/vue-server-renderer
 
-## Install
+## Prerequisite
 
-**Step 1**: To install the first nuget go to the WebService project of you solution and go to the Nuget Manager. Install the following Nuget
+To install the first nuget go to the WebService project of you solution and go to the Nuget Manager. Install the following Nuget
 
 ```
 $ Install nuget Selise.Ecap.WebApi.NetCore
 ```
 
-**Step 2**: The go to the Background service project of you solution and go to the Nuget Manager. Install the following Nuget
+The go to the Background service project of you solution and go to the Nuget Manager. Install the following Nuget
 
 ```
 $ Install nuget Selise.Ecap.Hosting
 ```
 
-**Step 3**: Finally, go to the Services project of you solution and go to the Nuget Manager. Install the following Nuget
+Finally, go to the Services project of you solution and go to the Nuget Manager. Install the following Nuget
 
 ```
 $ Install nuget Selise.Ecap.Framework
 ```
 
-**Step 4**: Initialize your WebService project with boilerplace code inside the Main method of Program.cs
+To update TensorFlow to the latest version, add `--upgrade` flag to the above
+commands.
+
+*Nightly binaries are available for testing using the
+[tf-nightly](https://pypi.python.org/pypi/tf-nightly) and
+[tf-nightly-cpu](https://pypi.python.org/pypi/tf-nightly-cpu) packages on PyPi.*
+#### *Try your first TensorFlow program*
+
+```shell
+$ python
+```
+
+```python
+>>> import tensorflow as tf
+>>> tf.add(1, 2).numpy()
+3
+>>> hello = tf.constant('Hello, TensorFlow!')
+>>> hello.numpy()
+b'Hello, TensorFlow!'
+```
+
+For more examples, see the
+[TensorFlow tutorials](https://www.tensorflow.org/tutorials/).
+
+
+## Usage
+
+
+**Step 1**: Initialize your WebService project with boilerplace code inside the Main method of Program.cs
 
 ```
 var ecapWebApiPipelineBuilderOptions = new EcapWebApiPipelineBuilderOptions
@@ -101,7 +129,7 @@ var ecapWebApiPipelineBuilderOptions = new EcapWebApiPipelineBuilderOptions
             await webHostBuilder.Build().RunAsync();
 ```
 
-**Step 5**: Add these methods inside the WebService Program.cs file
+**Step 2**: Add these methods inside the WebService Program.cs file
 
 ```
 private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings)
@@ -120,7 +148,7 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
         }
 ```
 
-**Step 6**: Initialize the Background service in a similar fasion
+**Step 3**: Initialize the Background service in a similar fasion
 
 ```
  public static async Task Main(string[] args)
@@ -151,33 +179,6 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
             serviceCollection.RegisterCollection(typeof(ICommandHandler<,>), new[] { typeof(...).Assembly });
         }
 ```
-
-To update TensorFlow to the latest version, add `--upgrade` flag to the above
-commands.
-
-*Nightly binaries are available for testing using the
-[tf-nightly](https://pypi.python.org/pypi/tf-nightly) and
-[tf-nightly-cpu](https://pypi.python.org/pypi/tf-nightly-cpu) packages on PyPi.*
-#### *Try your first TensorFlow program*
-
-```shell
-$ python
-```
-
-```python
->>> import tensorflow as tf
->>> tf.add(1, 2).numpy()
-3
->>> hello = tf.constant('Hello, TensorFlow!')
->>> hello.numpy()
-b'Hello, TensorFlow!'
-```
-
-For more examples, see the
-[TensorFlow tutorials](https://www.tensorflow.org/tutorials/).
-
-
-## Example
 
 ### note: CommonJS usage
 In order to gain the TypeScript typings (for intellisense / autocomplete) while using CommonJS imports with `require()` use the following approach:
