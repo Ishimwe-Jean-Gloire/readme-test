@@ -58,25 +58,25 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 
 ## Install
 
-Step 1: To install the first nuget go to the WebService project of you solution and go to the Nuget Manager. Install the following Nuget
+**Step 1**: To install the first nuget go to the WebService project of you solution and go to the Nuget Manager. Install the following Nuget
 
 ```
 $ Install nuget Selise.Ecap.WebApi.NetCore
 ```
 
-Step 2: The go to the Background service project of you solution and go to the Nuget Manager. Install the following Nuget
+**Step 2**: The go to the Background service project of you solution and go to the Nuget Manager. Install the following Nuget
 
 ```
 $ Install nuget Selise.Ecap.Hosting
 ```
 
-Step 3: Finally, go to the Services project of you solution and go to the Nuget Manager. Install the following Nuget
+**Step 3**: Finally, go to the Services project of you solution and go to the Nuget Manager. Install the following Nuget
 
 ```
 $ Install nuget Selise.Ecap.Framework
 ```
 
-Step 4: Initialize your WebService project with boilerplace code inside the Main method of Program.cs
+**Step 4**: Initialize your WebService project with boilerplace code inside the Main method of Program.cs
 
 ```
 var ecapWebApiPipelineBuilderOptions = new EcapWebApiPipelineBuilderOptions
@@ -101,7 +101,7 @@ var ecapWebApiPipelineBuilderOptions = new EcapWebApiPipelineBuilderOptions
             await webHostBuilder.Build().RunAsync();
 ```
 
-Step 5: Add these methods inside the WebService Program.cs file
+**Step 5**: Add these methods inside the WebService Program.cs file
 
 ```
 private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings)
