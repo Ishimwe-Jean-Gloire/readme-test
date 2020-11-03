@@ -172,3 +172,9 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
 - [Gmail](https://medium.com/the-vue-point)
 - [Hangouts](https://vuejobs.com/?ref=vuejs)
 - [Skype](https://vuejobs.com/?ref=vuejs)
+
+## License
+
+[SELISE](https://www.selise.ch)
+
+Copyright (c) 2012-present, Secure Link Service Ltd
