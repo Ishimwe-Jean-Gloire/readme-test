@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://reactnative.dev/">
+  <a href="https://www.google.com">
     ecap-server-core-backendframework-netcore
   </a>
 </h1>
@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="https://github.com/ittahad/readme-test/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-SELISE-blue" alt="React Native is released under the MIT license." />
+    <img src="https://img.shields.io/badge/license-SELISE-blue"/>
   </a>
-  <a href="https://circleci.com/gh/facebook/react-native">
-    <img src="https://img.shields.io/badge/azure-passing-brightgreen" alt="Current CircleCI build status." />
+  <a href="https://circleci.com/backend-framework">
+    <img src="https://img.shields.io/badge/azure-passing-brightgreen"/>
   </a>
-  <a href="https://circleci.com/gh/facebook/react-native">
-    <img src="https://img.shields.io/badge/aws-passing-brightgreen" alt="Current CircleCI build status." />
+  <a href="https://circleci.com/backend-framework">
+    <img src="https://img.shields.io/badge/aws-passing-brightgreen"/>
   </a>
 </p>
 
@@ -32,11 +32,11 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 
 | Nuget | Status | Description |
 |---------|--------|-------------|
-| [Selise.Ecap.Framework]          | [![vue-router-status]][vue-router-package] | Framework for CommandHandlers, EventHandlers, Repository etc |
-| [Selise.Ecap.WepApi.Netcore]                | [![vuex-status]][vuex-package] | WebApi project dependency |
-| [Selise.Ecap.Hosting]             | [![vue-cli-status]][vue-cli-package] | Background service dependency |
-| [Selise.Ecap.RowLevelSecurity]          | [![vue-loader-status]][vue-loader-package] | Use to maintain RowLevelSecurity |
-| [Selise.Ecap.Bus.Esb] | [![vue-server-renderer-status]][vue-server-renderer-package] | English framework support |
+| [Selise.Ecap.Framework]          | [![Selise.Ecap.Framework-Status]][vue-router-package] | Framework for CommandHandlers, EventHandlers, Repository etc |
+| [Selise.Ecap.WepApi.Netcore]                | [![Selise.Ecap.WepApi.Netcore-Status]][vuex-package] | WebApi project dependency |
+| [Selise.Ecap.Hosting]             | [![Selise.Ecap.Hosting-Status]][vue-cli-package] | Background service dependency |
+| [Selise.Ecap.RowLevelSecurity]          | [![Selise.Ecap.RowLevelSecurity-Status]][vue-loader-package] | Use to maintain RowLevelSecurity |
+| [Selise.Ecap.Bus.Esb] | [![Selise.Ecap.Bus.Esb-Status]][vue-server-renderer-package] | English framework support |
 
 [Selise.Ecap.Framework]: https://img.shields.io/badge/nuget-3.0.0.1-blue
 [Selise.Ecap.WepApi.Netcore]: https://img.shields.io/badge/nuget-3.0.0.1-blue
@@ -44,17 +44,17 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 [Selise.Ecap.RowLevelSecurity]: https://img.shields.io/badge/nuget-3.0.0.1-blue
 [Selise.Ecap.Bus.Esb]: https://img.shields.io/badge/nuget-3.0.0.1-blue
 
-[vue-router-status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
-[vuex-status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
-[vue-cli-status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
-[vue-loader-status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
-[vue-server-renderer-status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[Selise.Ecap.Framework-Status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[Selise.Ecap.WepApi.Netcore-Status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[Selise.Ecap.Hosting-Status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[Selise.Ecap.RowLevelSecurity-Status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[Selise.Ecap.Bus.Esb-Status]: https://img.shields.io/badge/nuget-3.0.0.1-blue
 
-[vue-router-package]: https://npmjs.com/package/vue-router
-[vuex-package]: https://npmjs.com/package/vuex
-[vue-cli-package]: https://npmjs.com/package/@vue/cli
-[vue-loader-package]: https://npmjs.com/package/vue-loader
-[vue-server-renderer-package]: https://npmjs.com/package/vue-server-renderer
+[Selise.Ecap.Framework-Package]: https://www.google.com
+[Selise.Ecap.WepApi.Netcore-Package]: https://www.google.com
+[Selise.Ecap.Hosting-Package]: https://www.google.com
+[Selise.Ecap.RowLevelSecurity-Package]: https://www.google.com
+[Selise.Ecap.Bus.Esb-Package]: https://www.google.com
 
 ## Prerequisite
 
@@ -160,11 +160,11 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
 
 ## Documentation 
 
-``` Swagger Documentation ``` <a href="https://reactnative.dev/"> https://api-documentation.selise.biz/ </a>
+``` Swagger Documentation ``` <a href="https://www.google.com"> https://api-documentation.selise.biz/ </a>
 
 ## Changelog
 
-[Learn about the latest improvements][changelog].
+[Learn about the latest improvements]: https://www.google.com
 
 ## Authors
 
