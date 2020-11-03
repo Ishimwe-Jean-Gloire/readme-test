@@ -1,12 +1,12 @@
 <h1 align="center">
   <a href="https://reactnative.dev/">
-    React Native
+    ecap-server-core-backendframework-netcore
   </a>
 </h1>
 
 <p align="center">
-  <strong>Learn once, write anywhere:</strong><br>
-  Build mobile apps with React.
+  <strong>Backbone of selise in-house .net core framework</strong><br>
+  Build your own ECAP Microservices
 </p>
 
 <p align="center">
