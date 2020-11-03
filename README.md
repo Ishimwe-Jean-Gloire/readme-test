@@ -38,11 +38,11 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 | [Selise.Ecap.RowLevelSecurity]          | [![vue-loader-status]][vue-loader-package] | Use to maintain RowLevelSecurity |
 | [Selise.Ecap.Bus.Esb] | [![vue-server-renderer-status]][vue-server-renderer-package] | English framework support |
 
-[Selise.Ecap.Framework]: https://github.com/vuejs/vue-router
-[Selise.Ecap.WepApi.Netcore]: https://github.com/vuejs/vuex
-[Selise.Ecap.Hosting]: https://github.com/vuejs/vue-cli
-[Selise.Ecap.RowLevelSecurity]: https://github.com/vuejs/vue-loader
-[Selise.Ecap.Bus.Esb]: https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer
+[Selise.Ecap.Framework]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[Selise.Ecap.WepApi.Netcore]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[Selise.Ecap.Hosting]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[Selise.Ecap.RowLevelSecurity]: https://img.shields.io/badge/nuget-3.0.0.1-blue
+[Selise.Ecap.Bus.Esb]: https://img.shields.io/badge/nuget-3.0.0.1-blue
 
 [vue-router-status]: https://img.shields.io/badge/nuget-3.0.0.1-orange
 [vuex-status]: https://img.shields.io/npm/v/vuex.svg
