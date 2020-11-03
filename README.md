@@ -164,7 +164,7 @@ private static IEnumerable<string> AddRequiredExchanges(IAppSettings appSettings
 
 ## Changelog
 
-Detailed changes for each release are documented in the [release notes](https://github.com/vuejs/vue/releases).
+Detailed changes for each release are documented in the [release notes](https://github.com/ittahad/readme-test/wiki).
 
 ## Authors
 
