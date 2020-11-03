@@ -58,19 +58,13 @@ Some introduction of backend **ecap-server-core-backendframework-netcore** will 
 
 ## Install
 
-See the [TensorFlow install guide](https://www.tensorflow.org/install) for the
-[pip package](https://www.tensorflow.org/install/pip), to
-[enable GPU support](https://www.tensorflow.org/install/gpu), use a
-[Docker container](https://www.tensorflow.org/install/docker), and
-[build from source](https://www.tensorflow.org/install/source).
-
-To install the current release, which includes support for
-[CUDA-enabled GPU cards](https://www.tensorflow.org/install/gpu) *(Ubuntu and
-Windows)*:
+Step 1: To install the first nuget go to the WebService project of you solution and go to the Nuget Manager. Install the following Nuget
 
 ```
-$ pip install tensorflow
+$ Install nuget Selise.Ecap.WebApi.NetCore
 ```
+
+
 
 A smaller CPU-only package is also available:
 
