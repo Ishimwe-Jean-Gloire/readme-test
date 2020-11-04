@@ -24,9 +24,8 @@
 
 ## Table of Contents
 
-* [About the Project](#introduction)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
+* [Introduction](#introduction)
+* [Ecosystem](#ecosystem)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
