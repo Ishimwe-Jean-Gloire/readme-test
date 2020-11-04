@@ -21,11 +21,10 @@
   </a>
   <br />
     <br />
+    Need anything?
     <a href="https://github.com/othneildrew/Best-README-Template">Swagger</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ittahad/readme-test/issues/new">Request Feature</a>
+    **or**
+    <a href="https://github.com/ittahad/readme-test/issues/new">Request Feature . Report bug</a>
 </p>
 
 
