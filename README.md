@@ -29,9 +29,9 @@
 * [Prerequisite](#prerequisite)
 * [Usage](#usgae)
 * [Documentation](#documentation)
+* [ChangeLog](#changelog)
+* [Authors](#authors)
 * [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
