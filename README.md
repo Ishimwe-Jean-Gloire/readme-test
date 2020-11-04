@@ -23,7 +23,7 @@
     <br />
     Need anything?
     <a href="https://github.com/othneildrew/Best-README-Template">Swagger</a> / 
-    <a href="https://github.com/ittahad/readme-test/issues/new">Request Feature or Report bug</a>
+    <a href="https://github.com/ittahad/readme-test/issues/new"> Request Feature or Report bug</a>
 </p>
 
 
