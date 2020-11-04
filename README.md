@@ -26,9 +26,7 @@
 
 * [Introduction](#introduction)
 * [Ecosystem](#ecosystem)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
+* [Prerequisite](#preresuisite)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
