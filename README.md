@@ -19,7 +19,15 @@
   <a href="https://circleci.com/backend-framework">
     <img src="https://img.shields.io/badge/aws-5%20passed%2C%201%20failed-red"/>
   </a>
+  <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
 </p>
+
 
 
 ## Table of Contents
