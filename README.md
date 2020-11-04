@@ -35,7 +35,7 @@
 * [Introduction](#introduction)
 * [Ecosystem](#ecosystem)
 * [Prerequisite](#prerequisite)
-* [Usage](#usgae)
+* [Usage](#usage)
 * [Documentation](#documentation)
 * [ChangeLog](#changelog)
 * [Authors](#authors)
