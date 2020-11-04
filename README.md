@@ -26,7 +26,7 @@
 
 * [Introduction](#introduction)
 * [Ecosystem](#ecosystem)
-* [Prerequisite](#preresuisite)
+* [Prerequisite](#prerequisite)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
